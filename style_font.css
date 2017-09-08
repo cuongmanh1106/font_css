@@ -1,0 +1,101 @@
+html,body,div,span,h1,h2,h3,h4,h5,h6,
+p,a,font,img,b,u,i,ol,ul,li,fieldset,form {
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+font-size: 100%;
+vertical-align: baseline;
+background: transparent;
+}
+body {
+font-size: 62.5%;
+font-family: tahoma, arial, sans-serif;
+line-height: 2em;
+background: #0e0e0e url(images/body_bg.jpg) no-repeat left top;
+}
+
+ol,ul {list-style: none;} /*Bỏ đi mấy cái list style của ol và ul*/
+ 
+a {
+text-decoration: none; /*Bỏ hiệu ứng gạch chân*/
+}
+ 
+a img {
+border: none; /*Bỏ border img nếu dùng ảnh làm link*/
+}
+ 
+img {
+vertical-align: center;
+}
+ 
+:focus {
+outline:0;
+}
+.uppercase {
+text-transform: uppercase;
+}
+ 
+.bold {
+font-weight: bold;
+}
+
+@font-face {
+    font-family:Roboto-bold;
+    src:url(../fonts/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family:Roboto-thin;
+    src:url(../fonts/Roboto-Thin.ttf);
+}
+@font-face {
+    font-family:Roboto-light;
+    src:url(../fonts/Roboto-Light.ttf);
+}
+@font-face {
+    font-family:Roboto-regular;
+    src:url(../fonts/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family:Roboto-light-italic;
+    src:url(../fonts/Roboto-LightItalic.ttf);
+}
+@font-face {
+    font-family:Roboto-medium;
+    src:url(../fonts/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family:Roboto-italic;
+    src:url(../fonts/Roboto-Italic.ttf);
+}
+.bold
+{
+	font-family:Roboto-bold;
+}
+.light
+{
+	font-family:Roboto-light;
+}
+.thin
+{
+	font-family:Roboto-thin;
+}
+.medium
+{
+	font-family:Roboto-medium;
+}
+.regular
+{
+	font-family:Roboto-regular;
+}
+.light-italic
+{
+	font-family:Roboto-light-italic;
+}
+.canh-giua
+{
+	
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
